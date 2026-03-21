@@ -372,6 +372,33 @@ h1 {
   gap: 12px;
 }
 
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.logo-chip {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid rgba(126, 224, 255, 0.18);
+  border-radius: 18px;
+  background: rgba(126, 224, 255, 0.08);
+  color: #d7edf9;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.logo-chip img,
+.contact-link-with-icon img,
+.visual-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
 .chip {
   padding: 11px 14px;
   color: #d7edf9;
@@ -427,6 +454,23 @@ h1 {
   transition: transform 180ms ease, color 180ms ease, border-color 180ms ease;
 }
 
+.contact-link-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.visual-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.visual-logo {
+  width: 40px;
+  height: 40px;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -454,7 +498,8 @@ h1 {
 
   .stat-grid,
   .focus-grid,
-  .project-grid {
+  .project-grid,
+  .logo-grid {
     grid-template-columns: 1fr;
   }
 }
