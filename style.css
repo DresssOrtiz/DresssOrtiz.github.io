@@ -56,10 +56,11 @@ body::before {
   height: 380px;
   border-radius: 30px;
   background:
-    linear-gradient(180deg, rgba(7, 17, 31, 0.12) 0%, rgba(7, 17, 31, 0.38) 45%, rgba(7, 17, 31, 0.9) 100%),
-    url("assets/banner-top.jpg") center 34% / cover no-repeat;
-  filter: blur(10px) saturate(1.08) brightness(0.96);
-  opacity: 0.9;
+    radial-gradient(circle at 18% 22%, rgba(126, 224, 255, 0.28), transparent 30%),
+    radial-gradient(circle at 82% 18%, rgba(98, 143, 255, 0.22), transparent 28%),
+    linear-gradient(135deg, rgba(21, 43, 70, 0.92) 0%, rgba(34, 57, 90, 0.78) 48%, rgba(16, 32, 56, 0.92) 100%);
+  filter: blur(18px);
+  opacity: 0.88;
   pointer-events: none;
   z-index: 0;
 }
