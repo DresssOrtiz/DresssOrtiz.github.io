@@ -3,37 +3,253 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Andrés Ortiz | Marca Personal</title>
+  <meta
+    name="description"
+    content="Sitio web personal de Andres Ortiz, estudiante de Ingenieria de Sistemas enfocado en tecnologia, innovacion, software e inteligencia artificial."
+  >
+  <title>Andres Ortiz | Marca Personal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Andrés Ortiz</h1>
-    <p>Estudiante de Ingeniería de Sistemas | Innovación | Tecnología</p>
-  </header>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#inicio">Andres Ortiz</a>
+      <nav class="site-nav" aria-label="Principal">
+        <a href="#sobre-mi">Sobre mi</a>
+        <a href="#enfoque">Enfoque</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
 
-  <main>
-    <section>
-      <h2>Sobre mí</h2>
-      <p>
-        Soy estudiante de Ingeniería de Sistemas y estoy construyendo mi marca
-        personal alrededor de la tecnología, la innovación y el desarrollo de proyectos.
-      </p>
-    </section>
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Marca personal en construccion</p>
+          <h1>
+            Tecnologia, estrategia y proyectos con una vision clara de futuro.
+          </h1>
+          <p class="hero-text">
+            Soy Andres Ortiz, estudiante de Ingenieria de Sistemas en la
+            Pontificia Universidad Javeriana de Bogota. Estoy construyendo una
+            identidad profesional enfocada en software, innovacion e inteligencia
+            artificial, con una forma de trabajar basada en disciplina, criterio
+            y aprendizaje constante.
+          </p>
 
-    <section>
-      <h2>Lo que hago</h2>
-      <ul>
-        <li>Desarrollo de proyectos académicos y tecnológicos</li>
-        <li>Aprendizaje continuo en programación e innovación</li>
-        <li>Construcción de identidad profesional en línea</li>
-      </ul>
-    </section>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver enfoque</a>
+            <a class="button button-secondary" href="#contacto">Conectar</a>
+          </div>
 
-    <section>
-      <h2>Contacto</h2>
-      <p><a href="https://github.com/TUUSUARIO" target="_blank">GitHub</a></p>
-    </section>
-  </main>
+          <ul class="hero-highlights" aria-label="Resumen de perfil">
+            <li>Ingenieria de Sistemas</li>
+            <li>Innovacion y tecnologia</li>
+            <li>Construccion de presencia digital</li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel" aria-label="Resumen profesional">
+          <div class="profile-card">
+            <img
+              src="assets/foto-perfil.jpg"
+              alt="Foto de perfil de Andres Ortiz"
+              class="profile-image"
+            >
+            <div class="profile-content">
+              <p class="profile-kicker">Perfil</p>
+              <h2>Joven, serio y en movimiento.</h2>
+              <p>
+                Me interesa desarrollar soluciones utiles, pensar proyectos con
+                direccion y crecer como profesional en entornos que valoren la
+                iniciativa, el analisis y el trabajo en equipo.
+              </p>
+            </div>
+          </div>
+
+          <div class="stat-grid">
+            <article class="stat-card">
+              <span class="stat-value">Software</span>
+              <span class="stat-label">Base tecnica en desarrollo</span>
+            </article>
+            <article class="stat-card">
+              <span class="stat-value">IA</span>
+              <span class="stat-label">Interes real en tecnologia emergente</span>
+            </article>
+            <article class="stat-card">
+              <span class="stat-value">Estrategia</span>
+              <span class="stat-label">Proyectos con proposito</span>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section-grid" id="sobre-mi">
+        <article class="section-card section-card-large">
+          <p class="section-tag">Sobre mi</p>
+          <h2>Construyo una identidad profesional que conecte tecnologia y criterio.</h2>
+          <p>
+            Estoy en una etapa de formacion donde no solo me interesa aprender
+            herramientas, sino entender como convertirlas en proyectos bien
+            pensados, utiles y sostenibles. Veo la tecnologia como una forma de
+            crear valor, resolver problemas y abrir nuevas posibilidades.
+          </p>
+          <p>
+            Esta pagina es parte de ese proceso: una base real para mi presencia
+            digital, pensada para crecer con mis proyectos, aprendizajes y metas
+            profesionales.
+          </p>
+        </article>
+
+        <article class="section-card">
+          <p class="section-tag">Lo que busco</p>
+          <ul class="detail-list">
+            <li>Fortalecer un perfil tecnico con vision de largo plazo.</li>
+            <li>Participar en proyectos con impacto, enfoque y utilidad real.</li>
+            <li>Desarrollar una marca personal coherente, sobria y confiable.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section-block" id="enfoque">
+        <div class="section-heading">
+          <p class="section-tag">Intereses y enfoque</p>
+          <h2>Areas donde quiero crecer, aportar y construir.</h2>
+        </div>
+
+        <div class="focus-grid">
+          <article class="focus-card">
+            <h3>Tecnologia e innovacion</h3>
+            <p>
+              Me interesa entender como evolucionan las herramientas y como se
+              convierten en ventajas reales para personas, equipos y proyectos.
+            </p>
+          </article>
+          <article class="focus-card">
+            <h3>Desarrollo de software</h3>
+            <p>
+              Quiero consolidar una base solida en construccion de soluciones,
+              logica, estructura y buenas practicas de desarrollo.
+            </p>
+          </article>
+          <article class="focus-card">
+            <h3>Inteligencia artificial</h3>
+            <p>
+              Veo la IA como un campo clave para el presente y el futuro, no solo
+              por su potencia tecnica, sino por sus posibilidades estrategicas.
+            </p>
+          </article>
+          <article class="focus-card">
+            <h3>Estrategia y proyectos</h3>
+            <p>
+              Me atraen los proyectos que combinan analisis, vision, ejecucion y
+              una direccion clara para generar resultados con sentido.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="section-heading">
+          <p class="section-tag">Habilidades</p>
+          <h2>Capacidades que estoy fortaleciendo en el proceso.</h2>
+        </div>
+
+        <div class="skills-layout">
+          <article class="skills-card">
+            <h3>Forma de trabajo</h3>
+            <div class="chip-group">
+              <span class="chip">Resolucion de problemas</span>
+              <span class="chip">Trabajo en equipo</span>
+              <span class="chip">Aprendizaje continuo</span>
+              <span class="chip">Disciplina</span>
+              <span class="chip">Comunicacion clara</span>
+              <span class="chip">Mentalidad de mejora</span>
+            </div>
+          </article>
+
+          <article class="skills-card">
+            <h3>Herramientas y areas</h3>
+            <div class="chip-group">
+              <span class="chip">Programacion</span>
+              <span class="chip">Desarrollo web</span>
+              <span class="chip">Git y GitHub</span>
+              <span class="chip">Pensamiento estructurado</span>
+              <span class="chip">Exploracion en IA</span>
+              <span class="chip">Diseno de proyectos</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" id="proyectos">
+        <div class="section-heading">
+          <p class="section-tag">Proyectos</p>
+          <h2>Espacio para mostrar evidencia, avances y trabajo aplicado.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-card-featured">
+            <p class="project-label">Proyecto base</p>
+            <h3>Construccion de marca personal digital</h3>
+            <p>
+              Desarrollo de este sitio web como punto de partida para consolidar
+              mi presencia profesional en linea y documentar avances reales para
+              mi proceso academico y personal.
+            </p>
+            <span class="project-status">En desarrollo</span>
+          </article>
+
+          <article class="project-card">
+            <p class="project-label">Placeholder</p>
+            <h3>Proyecto academico o tecnico</h3>
+            <p>
+              Aqui podre presentar una solucion, prototipo o ejercicio relevante,
+              explicando el problema, el enfoque y el aprendizaje principal.
+            </p>
+            <span class="project-status project-status-muted">Proximamente</span>
+          </article>
+
+          <article class="project-card">
+            <p class="project-label">Placeholder</p>
+            <h3>Idea con vision de futuro</h3>
+            <p>
+              Espacio pensado para mostrar iniciativas relacionadas con software,
+              innovacion, automatizacion o inteligencia artificial.
+            </p>
+            <span class="project-status project-status-muted">Proximamente</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-block" id="contacto">
+        <div>
+          <p class="section-tag">Contacto</p>
+          <h2>Esta pagina es una base. La conversacion puede seguir creciendo.</h2>
+          <p>
+            Si quieres ver mas de mi proceso, conectar conmigo o revisar mis
+            avances, aqui dejare mis canales principales.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="https://github.com/TUUSUARIO" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/TUPERFIL" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:tucorreo@ejemplo.com">Correo</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Andres Ortiz</p>
+      <p>Ingenieria de Sistemas / Pontificia Universidad Javeriana / Bogota</p>
+    </footer>
+  </div>
 </body>
 </html>
