@@ -568,6 +568,10 @@ h1 {
     padding-top: 12px;
   }
 
+  .hero-copy {
+    padding-left: 14px;
+  }
+
   .hero-panel,
   .section-card,
   .focus-card,
