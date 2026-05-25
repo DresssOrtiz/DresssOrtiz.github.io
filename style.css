@@ -545,11 +545,15 @@ h1 {
   .page-shell::before {
     top: -8px;
     height: 220px;
+    left: 0;
+    right: 0;
   }
 
   .page-shell::after {
     top: 170px;
     height: 280px;
+    left: 0;
+    right: 0;
   }
 
   .site-header,
@@ -569,7 +573,7 @@ h1 {
   }
 
   .hero-copy {
-    padding-left: 14px;
+    padding-left: 28px;
   }
 
   .hero-panel,
