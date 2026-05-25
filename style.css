@@ -50,16 +50,16 @@ body::before {
 .page-shell::before {
   content: "";
   position: absolute;
-  top: -6px;
+  top: -10px;
   left: -10px;
   right: -10px;
-  height: 205px;
+  height: 280px;
   border-radius: 40px 40px 0 0;
   background:
-    linear-gradient(180deg, rgba(122, 154, 204, 0.98) 0%, rgba(102, 132, 184, 0.98) 100%);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.2),
-    0 10px 40px rgba(61, 104, 176, 0.18);
+    radial-gradient(circle at 18% 22%, rgba(160, 230, 255, 0.22), transparent 20%),
+    radial-gradient(circle at 82% 18%, rgba(214, 227, 255, 0.16), transparent 18%),
+    linear-gradient(180deg, rgba(102, 133, 183, 0.98) 0%, rgba(92, 123, 174, 0.96) 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
   pointer-events: none;
   z-index: 0;
 }
@@ -67,15 +67,14 @@ body::before {
 .page-shell::after {
   content: "";
   position: absolute;
-  top: 150px;
+  top: 210px;
   left: -10px;
   right: -10px;
-  height: 260px;
-  background:
-    linear-gradient(180deg, rgba(92, 123, 174, 0.72) 0%, rgba(67, 94, 141, 0.38) 38%, rgba(7, 17, 31, 0) 100%);
+  height: 360px;
+  background: linear-gradient(180deg, rgba(92, 123, 174, 0.72) 0%, rgba(64, 90, 136, 0.34) 42%, rgba(7, 17, 31, 0) 100%);
   pointer-events: none;
   z-index: 0;
-  filter: blur(16px);
+  filter: blur(12px);
 }
 
 .site-header,
@@ -544,13 +543,13 @@ h1 {
   }
 
   .page-shell::before {
-    top: -6px;
-    height: 180px;
+    top: -8px;
+    height: 220px;
   }
 
   .page-shell::after {
-    top: 132px;
-    height: 220px;
+    top: 170px;
+    height: 280px;
   }
 
   .site-header,
