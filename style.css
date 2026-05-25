@@ -50,21 +50,31 @@ body::before {
 .page-shell::before {
   content: "";
   position: absolute;
-  top: -18px;
+  top: -10px;
   left: -10px;
   right: -10px;
-  height: 620px;
-  border-radius: 40px;
+  height: 280px;
+  border-radius: 40px 40px 0 0;
   background:
-    radial-gradient(circle at 14% 20%, rgba(147, 224, 255, 0.22), transparent 18%),
-    radial-gradient(circle at 86% 18%, rgba(171, 199, 255, 0.18), transparent 16%),
-    linear-gradient(180deg, rgba(98, 132, 184, 0.96) 0%, rgba(83, 116, 168, 0.92) 28%, rgba(54, 83, 128, 0.86) 52%, rgba(22, 41, 66, 0.52) 72%, rgba(7, 17, 31, 0) 100%);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.14),
-    0 18px 70px rgba(58, 106, 181, 0.18);
-  opacity: 1;
+    radial-gradient(circle at 18% 22%, rgba(160, 230, 255, 0.22), transparent 20%),
+    radial-gradient(circle at 82% 18%, rgba(214, 227, 255, 0.16), transparent 18%),
+    linear-gradient(180deg, rgba(102, 133, 183, 0.98) 0%, rgba(92, 123, 174, 0.96) 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
   pointer-events: none;
   z-index: 0;
+}
+
+.page-shell::after {
+  content: "";
+  position: absolute;
+  top: 210px;
+  left: -10px;
+  right: -10px;
+  height: 360px;
+  background: linear-gradient(180deg, rgba(92, 123, 174, 0.72) 0%, rgba(64, 90, 136, 0.34) 42%, rgba(7, 17, 31, 0) 100%);
+  pointer-events: none;
+  z-index: 0;
+  filter: blur(12px);
 }
 
 .site-header,
@@ -534,7 +544,12 @@ h1 {
 
   .page-shell::before {
     top: -8px;
-    height: 460px;
+    height: 220px;
+  }
+
+  .page-shell::after {
+    top: 170px;
+    height: 280px;
   }
 
   .site-header,
